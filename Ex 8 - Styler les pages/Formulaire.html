@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+
+<title>
+    Formulaire pour commander des FRAISES
+</title>
+
+</head>
+
+
+<body>
+    
+<h1>
+    CONTACTEZ-NOUS !!!
+</h1>
+
+<p>
+    Utilisez ce formulaire pour commader vos barquettes de fraises préférées ou simplement pour <br>
+    nous envoyer un message
+</p>
+
+<form action="/Ex 6 - Formulaire/X-293-alemartino-1e_Index.html" method="post">
+
+Nom *  <input type="text" required> <br> <br>
+Prénom *  <input type="text" required> <br><br>
+Adresse *  <input type="text" required> <br><br>
+Lieu *  <input type="text" required> <br><br>
+N° Postal (NPA) *  <input type="text" required> <br> <br>
+
+<fieldset>
+    <legend>
+        Votre commande
+    </legend>
+
+    <p>
+        Barquette de fraise désirée :
+    </p>
+
+    <input type="checkbox" name="fraise">La Gariguette  
+    <input type="checkbox" name="fraise"> La Mariguette  
+    <input type="checkbox" name="fraise"> La Cléry  <br><br>
+
+    <select name="quantite">
+        Quantité *
+        <option value="default">--CHOISISSEZ--</option>
+        <option value="1" name="choix" required>1 fois</option>
+        <option value="2" name="choix">2 fois</option>
+        <option value="3" name="choix">3 fois</option>
+    </select>
+
+    <br><br>
+
+    <fieldset>
+        <legend>
+            Mode de paiement
+        </legend>
+
+        <input type="radio" name="payement" checked> Payement à la livraison  
+        <input type="radio" name="payement"> Carte bancaire  
+        <input type="radio" name="payement"> PayPal  
+    </fieldset>
+
+    <br><br>
+    Message <br><textarea rows="6" cols="40"></textarea>
+
+    <br><br>
+
+    <input type="checkbox" required> J'accetpe les conditions générales *
+
+    <br><br>
+
+    <button type="submit">Envoyer</button>
+
+</fieldset>
+
+</form>
+
+
+</body>
+</html>
